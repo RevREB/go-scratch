@@ -18,7 +18,7 @@ It is built with these goals in mind:
 Run this one-liner to dump the repository content into current directory.
 
 ```sh
-curl -L https://github.com/chakrit/go-scratch/archive/master.tar.gz | tar -xzv --strip 1
+curl -L https://github.com/RevREB/go-scratch/archive/v1.0.0.tar.gz | tar -xzv --strip 1
 ```
 
 Do not forget to update the `LICENSE` file to match what you need. Or simply remove it.
@@ -31,7 +31,7 @@ cd your-new-shiny-project       # Get into the folder first, of course.
 git init                        # Or not, doesn't matter.
 
 # Download the scratch template
-curl -L https://github.com/chakrit/go-scratch/archive/master.tar.gz | tar -xzv --strip 1
+https://github.com/RevREB/go-scratch/archive/v1.0.0.tar.gz | tar -xzv --strip 1
 # (optional) vim LICENSE        # Edit LICENSE file.
 
 git add .
